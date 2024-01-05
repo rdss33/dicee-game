@@ -27,12 +27,13 @@ body{
 .container{
     display: flex;
     justify-content: center;
-    gap: 150px;
+    gap: 15%;
 }
 .column{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     height: 100%;
 }
 .explanation, .footer, .result{
@@ -62,4 +63,22 @@ body{
 }
 .hidden{
     visibility: hidden;
+}
+@media (max-width: 800px)
+{
+    .container{
+        flex-direction: column;
+        justify-content: center;
+        gap: 0px;
+    }
+    .wide{
+        width: 100%;
+    }
+    .isolated{
+        margin: auto;
+    }
+    img{
+        height: 50px;
+        width: 50px;
+    }
 }

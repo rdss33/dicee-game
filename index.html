@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis&family=Sevillana&display=swap" rel="stylesheet">
+    <title>Dicee Game</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <section id="heading-Section">
+        <div class="container">
+            <div class="column">
+                <h1 class="heading">Welcome to Dicee!</h1>
+                <p class="explanation">Every time the page loads, a new value will be rolled for each player</p>
+                <p class="explanation">Whoever rolls the highest number... <span class="highlight">wins!</span></p>
+            </div>     
+        </div>    
+    </section>
+    <section id="content-Section">
+        <div class="container isolated">
+            <div class="column p1-Area">
+                <h3 class="Title">Player 1</h3>
+                <img src="./images/dice1.png" alt="Die Result Player 1" id="die-value-p1">
+                <p class="result p1">!!Insert result!!</p>
+            </div>
+            <div class="result-Area">
+                <div class="column">
+                    <h2 class="heading centered draw-message">DRAW!</h2>
+                </div>
+            </div>
+            <div class="column p2-Area">
+                <h3 class="Title">Player 2</h3>
+                <img src="./images/dice1.png" alt="Die Result Player 2" id="die-value-p2">
+                <p class="result p2">!!Insert result!!</p>
+            </div>
+        </div>
+    </section>
+    <section id="footer-Section">
+        <div class="container">
+            <p class="footer border-top wide isolated">© 2023 <span class="highlight">-</span> Made by RDSS</p>
+        </div>
+    </section>
+    <script src="./script.js"></script>
+</body>
+</html>

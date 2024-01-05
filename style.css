@@ -1,0 +1,65 @@
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(29, 5, 73);
+}
+.heading{
+    text-align: center;
+    color: aliceblue;
+    font-size: 3rem;
+    font-family: Sevillana, cursive;
+}
+.result-Area .heading{
+    font-weight: 300;
+}
+.highlight{
+    color: goldenrod;
+}
+.Title{
+    text-align: center;
+    color: goldenrod;
+    font-size: 2rem;
+    font-weight: lighter;
+    font-family: Dosis, sans-serif;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+.explanation, .footer, .result{
+    color: aliceblue;
+    font-size: 1.5rem;
+    font-family: Dosis, sans-serif;
+    text-align: center;
+}
+.isolated{
+    margin: 6rem;
+}
+.centered{
+    align-self: center;
+}
+.border-top{
+    border-top: 2px dashed aliceblue;
+}
+.wide{
+    width: 80%;
+}
+.footer{
+    padding: 10px;
+}
+.result{
+    font-size: 2.25rem;
+    font-weight: bolder;
+}
+.hidden{
+    visibility: hidden;
+}
